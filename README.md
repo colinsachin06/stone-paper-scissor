@@ -1,48 +1,45 @@
-# Rock Paper Scissors
+# 🪨 Rock Paper Scissors
 
-A simple **Rock Paper Scissors** game built with JavaScript as part of **The Odin Project Foundations** curriculum.
+A fantasy-themed Rock Paper Scissors game built with **HTML, CSS, and JavaScript**. The game features an interactive interface, live score tracking, and dynamic DOM updates without requiring page reloads.
 
-The game is played entirely through browser prompts and alerts. The player competes against the computer for five rounds, and the final winner is announced based on the total score.
+## 📸 Preview
 
-## Features
+![Game Preview](images/preview.png)
 
-* Play against a computer with random choices.
-* Five-round game.
-* Automatic score tracking.
-* Final score and winner announcement.
-* Case-insensitive player input.
+## ✨ Features
 
-## Built With
+- Fantasy-inspired UI
+- Click-based gameplay
+- Random computer opponent
+- Live score updates
+- Dynamic result messages
+- Interactive DOM manipulation
+- Custom Google Fonts
+- Flexbox-based layout
 
-* HTML
-* JavaScript
+## 🛠️ Technologies Used
 
-## How to Run
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- DOM Manipulation
+- Flexbox
+- Google Fonts
 
-1. Clone this repository.
-2. Open `index.html` in your browser.
-3. Play the game through the browser prompts.
+## 🎮 How to Play
 
-## What I Learned
+1. Click on **Rock**, **Paper**, or **Scissors**.
+2. The computer randomly selects its choice.
+3. The winner is determined according to the classic game rules.
+4. Scores and game messages update instantly after every round.
 
-While building this project, I practiced:
+## 📂 Project Structure
 
-* Functions
-* Parameters and return values
-* Conditional statements
-* Loops
-* Variables
-* Random number generation using `Math.random()`
-* Keeping code organized by separating logic into functions
-
-## Future Improvements
-
-* Add a graphical user interface (GUI).
-* Replace prompts and alerts with buttons and text on the webpage.
-* Improve input validation.
-* Display the computer's choice after each round.
-
-## Author
-
-Sachin
+```text
+rock-paper-scissors/
+├── images/
+├── index.html
+├── style.css
+├── script.js
+└── README.md
 

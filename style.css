@@ -1,0 +1,77 @@
+/*universal*/
+*{
+	box-sizing: border-box;
+	margin:0;
+	padding:0;
+}
+/*body*/
+body{
+	background-color: #010502;
+}
+/*header*/
+
+.title{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 30px 70px;
+	
+
+}
+.title > p,
+.message{
+	font-family:"Uncial Antiqua" , sans-serif;
+	font-weight: bold;
+	font-size: 60px;
+	color: #6B9732;
+
+}
+.title > p {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.title img{
+	width: 1000px;
+}
+
+.title > p:first-child {
+    justify-content: flex-start;
+}
+
+.title > p:last-child {
+    justify-content: flex-end;
+}
+#human-score,
+#computer-score {
+    min-width: 2ch;
+    text-align: center;
+}
+/*game*/
+.gameBar{
+	display:flex;
+	gap: 150px;	
+	justify-content: center;
+	margin:20px;
+}
+
+.choice{
+	text-align:center;
+}
+.choice img{
+	width: 400px;
+	height: 400px;
+}
+.choice p{
+	font-weight: 800;
+	color: #6A9914;
+	font-size: 30px;
+	 font-family: "Uncial Antiqua", "Bitcount Single", sans-serif;
+
+}
+.message{
+	text-align: center;
+	margin: 30px;
+}
+
